@@ -1,8 +1,12 @@
+$primary: #33cccc;
+$primary-dark: #339999;
+$primary-light: #ace9ea;
+
 .global-nav{
   height:50px;
   width:100%;
-  background: #33cccc;
-  border-bottom:1px solid #339999;
+  background: $primary;
+  border-bottom:1px solid $primary-dark;
   .link{
     display:inline-block;
     text-decoration:none;
@@ -15,18 +19,18 @@
     vertical-align:middle;
     text-shadow: 0 -1px 1px rgba(0, 0, 0, .4),0 1px 1px rgba(255, 255, 255, .75);
     &:hover{
-      background:#339999;
+      background:$primary-dark;
     }
   }
   .logo{
-    background: #339999;
+    background: $primary-dark;
     font-size:28px;
   }
 }
 
 .footer{
   border-top:1px solid #5ecacd;
-  background:#ace9ea;
+  background:$primary-light;
   padding:10px 0;
   height:30px;
 }
@@ -63,33 +67,6 @@
 	  background:#ccc;
 	}
       }
-      form{
-	margin:0;
-	padding:0;
-	input{
-	  width: 70%;
-	  height:25px;
-	  margin:0;
-	  padding:0;
-	  box-sizing:border-box;
-	  border-radius:2px;
-	  border:1px solid #999;
-	}
-	button{
-	  height:25px;
-	  margin:0;
-	  padding:0;
-	  box-sizing:border-box;
-	  width: 25%;
-	  border:1px solid #555;
-	  background: #ccc;
-	  color:#555;
-	  border-radius:2px;
-	  &:hover{
-	    background: #999;
-	  }
-	}
-      }
       &.heading{
 	margin:0 0 10px 0;
 	a{
@@ -107,7 +84,7 @@
 
 .user_lending_status{
   border-radius:2px;
-  background:#33cccc;
+  background:$primary;
   padding:5px;
   .tab-nav{
     button{
@@ -124,13 +101,13 @@
       border-radius: 2px 2px 0 0;
       &.actived{
 	background:#fff;
-	color:#339999;
+	color:$primary-dark;
       }
     }
   }
   .tab-content{
     border-radius:2px;
-    border:1px solid #33cccc;
+    border:1px solid $primary;
     background:#fff;
     margin:-1px 0 0 0;
     ul{
@@ -162,9 +139,9 @@
 	  padding:5px 3px;
 	  font-size:12px;
 	  background:#fff;
-	  color:#339999;
+	  color:$primary-dark;
 	  font-weight:bold;
-	  border:1px solid #339999;
+	  border:1px solid $primary-dark;
 	  border-radius:1px;
 	  width:100%;
 	  &:hover{
@@ -179,14 +156,20 @@
 .block_heading{
   color: #fff;
   display:inline-block;
-  background:#33cccc;
+  background:$primary;
   padding:5px 20px;
   border-radius:15px;
   font-size:18px;
 }
+.border_heading{
+  margin: 40px 0 0 0;
+  padding: 5px 0;
+  color:$primary-dark;
+  border-bottom:2px solid $primary-dark;
+}
 
 .block_content{
-  border:1px solid #339999;
+  border:1px solid $primary-dark;
 }
 
 .lending_nav{
@@ -205,6 +188,10 @@
   line-height: 25px;
   border-radius: 2px;
 }
+.link_btn_large{
+  height:40px;
+  line-height:40px;
+}
 .link_btn_default{
   border:1px solid #999;
   background:#fff;
@@ -214,15 +201,38 @@
   }
 }
 .link_btn_success{
-  border: 1px solid #339999;
+  border: 1px solid $primary-dark;
   background:#fff;
-  color:#339999;
+  color:$primary-dark;
   &:hover{
-    background:#ace9ea;
+    background:$primary-light;
+  }
+}
+.link_btn_twitter{
+  background:#3aaaec;
+  border:1px solid #1593de;
+  color:#fff;
+  &:hover{
+    background:#1593de;
+  }
+}
+.link_btn_github{
+  background:#666;
+  border:1px solid #555;
+  color:#fff;
+  &:hover{
+    background:#555;
   }
 }
 
-.search_box{
+.social_btns{
+  margin:30px 0;
+  .link_btn{
+    margin:0 0 10px 0;
+  }
+}
+
+.input_box{
   margin:0;
   padding:0;
   input{
@@ -251,7 +261,7 @@
 }
 
 .product_small{
-  margin:0 10px 10px 0;
+  margin:0 5px 10px 5px;
   padding:10px;
   .inner_offset{
     padding:0 10px 0 0;
@@ -265,7 +275,7 @@
   }
 }
 .product_comment{
-  margin:10px 0 0 0;
+  margin:10px 0;
   a{
     word-break:break-all;
     font-size:10px;
@@ -277,14 +287,14 @@
     border:1px;
     width:30px;
     height:30px;
-    border:1px solid #33cccc;
+    border:1px solid $primary;
   }
   .fbox {
     position: relative;
     display:       block;
     padding:10px ;
     text-align:left;
-    background-color:#ace9ea;
+    background-color:$primary-light;
     margin:0;
     border-radius: 0px ;
     border-radius:2px;
@@ -300,7 +310,7 @@
     top: 2px;
     left: -20px; 
     border: 10px solid transparent;
-    border-right: 15px solid #ace9ea; /*13px*/
+    border-right: 15px solid $primary-light; /*13px*/
   }
 }
 .product_comment_form{
@@ -309,7 +319,20 @@
 .see_more{
   text-align:right;
   a{
-    color:#339999;
+    color:$primary-dark;
     text-decoration:none;
   }
+}
+
+.signin_wrapper{
+  margin:10px 0 0 0;
+  .side_divider_right{
+    border-right:1px solid $primary-dark;
+    height:250px;
+  }
+}
+
+.anotation{
+  color:#555;
+  font-size:12px;
 }
