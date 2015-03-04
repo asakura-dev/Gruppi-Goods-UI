@@ -1,0 +1,16 @@
+---
+title: "ホーム画面"
+layout: pc
+---
+<div class="l-constrained">
+  <h1 class="">ホーム</h1>
+  <div class="l-side-col l-grid-3-12 l-align-left">
+    <div class="l-side-row">
+    <%= partial 'pc/admin_panel'%>
+    </div>
+    <div class="l-side-row">
+      <%= partial 'pc/user_lending_status'%>
+    </div>
+  </div>
+  <div class="l-grid-9-12 l-align-left"></div>
+</div>

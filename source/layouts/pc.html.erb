@@ -13,11 +13,17 @@
     <%= stylesheet_link_tag "pc/base"%>
     <%= stylesheet_link_tag "pc/layout"%>
     <%= stylesheet_link_tag "pc/module" %>
-    <%= javascript_include_tag  "all" %>
+    
+    <%= javascript_include_tag  "pc/all" %>
   </head>
   
   <body class="<%= page_classes %>">
-    <%= partial 'layouts/pc/header'%>
-    <%= yield %>
+    <div class="l-wrapper">
+      <%= partial 'layouts/pc/header'%>
+      <div class="l-main clearfix">
+	<%= yield %>
+      </div>
+      <%= partial 'layouts/pc/footer'%>
+    </div>
   </body>
 </html>
