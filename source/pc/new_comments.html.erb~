@@ -1,0 +1,25 @@
+---
+title: "新しくコメントが付けられた備品"
+layout: pc
+---
+<div class="l-constrained">
+  <h1 class="border_heading">新しくコメントがつけられた備品</h1>
+  <% 5.times do %>
+    <div class="l-grid-row clearfix">
+      <% 2.times do %>
+	<div class="l-grid-1-2 l-align-left">
+	  <div class="block_content product_small clearfix">
+	    <div class="l-grid-4-12 l-align-left">
+	      <div class="inner_offset">
+		<img src="/images/javascript.jpeg">
+	      </div>
+	    </div>
+	    <div class="l-grid-8-12 l-align-left">
+	      
+	    </div>
+	  </div>
+	</div>
+      <% end %>
+    </div>
+  <% end %>
+</div>
