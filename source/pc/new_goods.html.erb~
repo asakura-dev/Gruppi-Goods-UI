@@ -1,0 +1,28 @@
+---
+title: "新しい備品"
+layout: pc
+---
+<div class="l-constrained">
+  <h1>新しい備品</h1>
+  <% 5.times do %>
+  <div class="l-grid-row clearfix">
+    <% 2.times do %>
+    <div class="l-grid-1-2 l-align-left">
+      <div class="block_content product_small clearfix">
+	<div class="l-grid-row clearfix">
+	  <div class="l-grid-1-4 l-align-left">
+	    <div class="inner_offset">
+	      <img src="/images/javascript.jpeg">
+	    </div>
+	  </div>
+	  <div class="l-grid-3-4 l-align-left">
+	    <a href="/">JavaScript第六版</a>
+	    <p>JavaScriptの教科書JavaScriptの教科書JavaScriptの教科書JavaScriptの教科書JavaScriptの教科書JavaScriptの教科書JavaScriptの教科書JavaScriptの教科書</p>
+	  </div>
+	</div>
+      </div>
+    </div>
+    <% end %>
+  </div>
+  <% end %>
+</div>
