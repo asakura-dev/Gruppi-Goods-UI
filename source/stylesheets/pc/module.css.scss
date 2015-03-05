@@ -265,7 +265,6 @@ $primary-light: #ace9ea;
   padding:10px;
   .inner_offset{
     padding:0 10px 0 0;
-    text-align:center;
   }
   .info{
     padding:0 0 5px 0;
@@ -278,14 +277,20 @@ $primary-light: #ace9ea;
     font-size:12px;
   }
 }
+.product_comments{
+  margin:5px;
+  padding:10px;
+}
 .product_comment{
-  margin:10px 0;
+  margin-top:10px;
+  margin-bottom:10px;
   a{
     word-break:break-all;
     font-size:10px;
   }
   .inner_offset{
     padding:0 10px 0 0;
+    text-align:center;
   }
   img{
     border:1px;
@@ -303,6 +308,11 @@ $primary-light: #ace9ea;
     border-radius: 0px ;
     border-radius:2px;
     font-size:12px;
+    &.font-large{
+      padding:20px;
+      font-size:15px;
+      margin:0 10px 0 0;
+    }
   }
   .fbox:after{
     content: "";
