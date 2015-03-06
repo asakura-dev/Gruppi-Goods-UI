@@ -1,0 +1,43 @@
+<div class="l-grid-row">
+  <h2 class="block_heading">新しいレビュー</h2>
+</div>
+<div class="l-grid-row clearfix">
+  <% 3.times do %>
+  <div class="l-grid-4-12 l-align-left">
+    <div class="block_content product_small clearfix">
+      <div class="info l-grid-row">
+	<span class="anotation">2014/05/06</span>
+      </div>
+      <div class="l-grid-row clearfix">
+	<div class="l-grid-1-2 l-align-left">
+	  <div class="inner_offset">
+	    <img src="/images/javascript.jpeg">
+	  </div>
+	</div>
+	<div class="l-grid-1-2 l-align-left">
+	  <a href="/">JavaScript第六版</a>
+	</div>
+      </div>
+      <div class="l-grid-row clearfix">
+	<div class="product_comment clearfix">
+	  <div class="l-grid-3-12 l-align-left">
+	    <div class="inner_offset">
+	      <img src="https://pbs.twimg.com/profile_images/541976875929571328/vnbAiTRn_400x400.png">
+	      <a href="">@asakura_dev</a>
+	    </div>
+	  </div>
+	  <div class="l-grid-9-12 l-align-left">
+	    <div class="fbox">気の利いたコメント気の利いたコメント気の利いたコメント気の利いたコメント気の利いたコメント</div>
+	  </div>
+	</div>
+      </div>
+      <div class="l-grid-row see_more">
+	<a href="">ほか20件のコメント</a>
+      </div>
+    </div>
+  </div>
+  <% end %>
+</div>
+<div class="l-grid-row see_more">
+  <a href="/">さらにみる</a>
+</div>

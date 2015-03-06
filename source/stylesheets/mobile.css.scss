@@ -1,0 +1,27 @@
+@media screen and (max-device-width: 640px){
+  h1{
+    margin-left:10px;
+  }
+  .l-constrained{
+    width:auto;
+    margin:0 auto;
+  }
+  .l-side-col{
+    float:none;
+    clear:both;
+    width:auto;
+    margin:0 10px;
+    padding:0;
+  }
+  .l-main-col{
+    padding:10px;
+  }
+  .lending_nav{
+  }
+  .global-nav .link{
+    display:block;
+    font-size:24px;
+    width:220px;
+    padding:0;
+  }
+}

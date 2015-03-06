@@ -1,10 +1,10 @@
 ---
 title: "ホーム画面"
-layout: pc
+layout: sp
 ---
 <div class="l-constrained clearfix">
   <h1 class="">ホーム</h1>
-  <div class="l-side-col l-grid-3-12 l-align-left">
+  <div class="l-side-col">
     <div class="l-side-row">
     <%= partial 'pc/admin_panel'%>
     </div>
@@ -12,7 +12,7 @@ layout: pc
       <%= partial 'pc/user_lending_status'%>
     </div>
   </div>
-  <div class="l-grid-9-12 l-align-left">
+  <div class="">
     <%= partial 'pc/lending_nav'%>
     <%= partial 'pc/new_goods' %>
     <%= partial 'pc/new_comments'%>

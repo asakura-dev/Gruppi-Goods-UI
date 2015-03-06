@@ -1,0 +1,8 @@
+---
+title: "ホーム画面"
+layout: pc
+---
+<div class="l-constrained clearfix">
+  <h1>管理画面</h1>
+  <div class="l-side-col l-grid-3-12 l-align-left"
+</div>
