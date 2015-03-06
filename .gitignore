@@ -9,7 +9,7 @@
 /vendor/bundle
 /vendor/ruby
 # Ignore the build directory
-/build
+
 
 # Ignore cache
 /.sass-cache

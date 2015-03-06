@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* Base */
+/* line 4, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/base.css.scss */
+* {
+  margin: 0;
+  padding: 0;
+  color: #555; }
+
+/* line 10, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/base.css.scss */
+html, body {
+  height: 100%;
+  background: #ffffff;
+  font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+  font-size: 16px; }
+
+/* line 17, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/base.css.scss */
+p {
+  word-break: break-all; }
+
+/* line 20, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/base.css.scss */
+input,
+button,
+textarea {
+  font-size: 15px;
+  font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+  box-sizing: border-box; }
+
+/* line 29, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/base.css.scss */
+.pull-right {
+  float: right;
+  box-sizing: border-box; }
+
+/* line 33, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/base.css.scss */
+.pull-left {
+  float: left;
+  box-sizing: border-box; }
+
+/* line 37, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/base.css.scss */
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block; }
+
+/* line 43, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/base.css.scss */
+a, a:visited, a:hover {
+  /* color: #428bca; */ }
+
+/* page-heading moduels */
+/* line 48, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/base.css.scss */
+h1 {
+  font-size: 25px;
+  color: #555;
+  margin: 15px 0;
+  line-height: 25px; }
+
+/* line 54, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/base.css.scss */
+h2 {
+  font-size: 20px;
+  color: #555;
+  margin: 10px 0;
+  line-height: 20px; }
+
+/* line 61, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/base.css.scss */
+dt {
+  font-weight: bold;
+  margin-bottom: 5px; }
+
+/* line 65, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/base.css.scss */
+dd {
+  margin-bottom: 3px; }

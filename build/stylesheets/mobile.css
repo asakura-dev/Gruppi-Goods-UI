@@ -1,0 +1,28 @@
+@media screen and (max-device-width: 640px) {
+  /* line 2, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/mobile.css.scss */
+  h1 {
+    margin-left: 10px; }
+
+  /* line 5, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/mobile.css.scss */
+  .l-constrained {
+    width: auto;
+    margin: 0 auto; }
+
+  /* line 9, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/mobile.css.scss */
+  .l-side-col {
+    float: none;
+    clear: both;
+    width: auto;
+    margin: 0 10px;
+    padding: 0; }
+
+  /* line 16, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/mobile.css.scss */
+  .l-main-col {
+    padding: 10px; }
+
+  /* line 21, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/mobile.css.scss */
+  .global-nav .link {
+    display: block;
+    font-size: 24px;
+    width: 220px;
+    padding: 0; } }

@@ -1,0 +1,435 @@
+/* line 5, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.global-nav {
+  height: 50px;
+  width: 100%;
+  background: #33cccc;
+  border-bottom: 1px solid #339999; }
+  /* line 10, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .global-nav .link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 10px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    vertical-align: middle;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4), 0 1px 1px rgba(255, 255, 255, 0.75); }
+    /* line 21, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+    .global-nav .link:hover {
+      background: #339999; }
+  /* line 25, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .global-nav .logo {
+    background: #339999;
+    font-size: 28px; }
+
+/* line 31, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.footer {
+  border-top: 1px solid #5ecacd;
+  background: #ace9ea;
+  padding: 10px; }
+
+/* line 36, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.footer-nav {
+  list-style: none; }
+
+/* line 39, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.footer-nav-item {
+  margin: 0 20px 0 0;
+  font-size: 14px; }
+  /* line 42, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .footer-nav-item a {
+    text-decoration: none; }
+    /* line 44, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+    .footer-nav-item a:hover {
+      text-decoration: underline; }
+
+/* line 49, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.admin_panel {
+  border: 1px solid #555;
+  border-radius: 2px; }
+  /* line 52, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .admin_panel ul {
+    list-style: none;
+    padding: 5px; }
+    /* line 55, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+    .admin_panel ul li {
+      margin: 0 10px 10px 10px; }
+      /* line 57, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+      .admin_panel ul li a {
+        border: 1px solid #999;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        font-size: 14px;
+        line-height: 25px;
+        border-radius: 2px; }
+        /* line 65, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+        .admin_panel ul li a:hover {
+          background: #ccc; }
+      /* line 69, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+      .admin_panel ul li.heading {
+        margin: 0 0 10px 0; }
+        /* line 71, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+        .admin_panel ul li.heading a {
+          margin: 0;
+          border: 1px solid #555;
+          background: #999;
+          font-size: 14px;
+          line-height: 25px;
+          color: #fff; }
+
+/* line 84, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.user_lending_status {
+  border-radius: 2px;
+  background: #33cccc;
+  padding: 5px; }
+  /* line 89, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .user_lending_status .tab-nav button {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    height: 30px;
+    border: 1px solid #fff;
+    border-bottom: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 2px 2px 0 0; }
+    /* line 101, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+    .user_lending_status .tab-nav button.actived {
+      background: #fff;
+      color: #339999; }
+  /* line 107, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .user_lending_status .tab-content {
+    border-radius: 2px;
+    border: 1px solid #33cccc;
+    background: #fff;
+    margin: -1px 0 0 0; }
+    /* line 112, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+    .user_lending_status .tab-content ul {
+      list-style: none;
+      padding: 5px; }
+      /* line 115, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+      .user_lending_status .tab-content ul li {
+        margin: 5px 0;
+        padding: 5px 0; }
+        /* line 118, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+        .user_lending_status .tab-content ul li .deadline {
+          font-size: 12px;
+          color: #333;
+          line-height: 15px; }
+          /* line 122, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+          .user_lending_status .tab-content ul li .deadline.warning {
+            color: #990000; }
+        /* line 126, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+        .user_lending_status .tab-content ul li .title {
+          font-size: 13px;
+          color: #333;
+          text-decoration: none;
+          line-height: 17px;
+          padding: 2px 0; }
+          /* line 132, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+          .user_lending_status .tab-content ul li .title:hover {
+            text-decoration: underline; }
+        /* line 136, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+        .user_lending_status .tab-content ul li button {
+          margin: 0 0 0 2px;
+          padding: 5px 3px;
+          font-size: 12px;
+          background: #fff;
+          color: #339999;
+          font-weight: bold;
+          border: 1px solid #339999;
+          border-radius: 1px;
+          width: 100%; }
+          /* line 146, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+          .user_lending_status .tab-content ul li button:hover {
+            background: #ccc; }
+
+/* line 155, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.block_heading {
+  color: #fff;
+  display: inline-block;
+  background: #33cccc;
+  padding: 5px 20px;
+  border-radius: 15px;
+  font-size: 18px; }
+
+/* line 163, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.border_heading {
+  margin: 30px 0 10px 0;
+  padding: 5px 0;
+  color: #339999;
+  border-bottom: 2px solid #339999; }
+
+/* line 170, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.block_content {
+  border: 1px solid #339999; }
+
+/* line 174, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.lending_nav {
+  padding: 10px 20px;
+  margin: 0 0 20px 0; }
+  /* line 177, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .lending_nav a {
+    font-weight: bold; }
+
+/* line 182, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.link_btn {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  line-height: 25px;
+  border-radius: 2px; }
+
+/* line 190, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.link_btn_large {
+  line-height: 40px; }
+
+/* line 193, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.link_btn_default {
+  border: 1px solid #999;
+  background: #fff;
+  color: #999; }
+  /* line 197, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .link_btn_default:hover {
+    background: #ccc; }
+
+/* line 201, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.link_btn_success {
+  border: 1px solid #339999;
+  background: #fff;
+  color: #339999; }
+  /* line 205, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .link_btn_success:hover {
+    background: #ace9ea; }
+
+/* line 209, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.link_btn_twitter {
+  background: #3aaaec;
+  border: 1px solid #1593de;
+  color: #fff; }
+  /* line 213, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .link_btn_twitter:hover {
+    background: #1593de; }
+
+/* line 217, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.link_btn_github {
+  background: #666;
+  border: 1px solid #555;
+  color: #fff; }
+  /* line 221, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .link_btn_github:hover {
+    background: #555; }
+
+/* line 226, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.social_btns {
+  margin: 30px 0; }
+  /* line 228, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .social_btns .link_btn {
+    margin: 0 0 10px 0; }
+
+/* line 233, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.input_box {
+  margin: 0;
+  padding: 0; }
+  /* line 236, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .input_box input {
+    width: 70%;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid #999; }
+  /* line 245, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .input_box button {
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 25%;
+    border: 1px solid #555;
+    background: #ccc;
+    color: #555;
+    border-radius: 2px; }
+    /* line 255, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+    .input_box button:hover {
+      background: #999; }
+
+/* line 261, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.product_small {
+  margin: 0 5px 10px 5px;
+  padding: 10px; }
+  /* line 264, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .product_small .inner_offset {
+    padding: 0 10px 0 0; }
+  /* line 267, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .product_small .info {
+    padding: 0 0 5px 0; }
+  /* line 270, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .product_small img {
+    width: 100%;
+    border: 1px solid #555; }
+  /* line 274, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .product_small a {
+    font-size: 12px; }
+
+/* line 278, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.product_comments {
+  margin: 5px;
+  padding: 10px 20px 10px 10px; }
+
+/* line 282, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.product_comment {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  /* line 285, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .product_comment a {
+    word-break: break-all;
+    font-size: 10px; }
+  /* line 289, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .product_comment .inner_offset {
+    padding: 0 10px 0 0;
+    text-align: center; }
+  /* line 293, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .product_comment img {
+    border: 1px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #33cccc; }
+  /* line 299, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .product_comment .fbox {
+    position: relative;
+    display: block;
+    padding: 10px;
+    text-align: left;
+    background-color: #ace9ea;
+    margin: 0;
+    border-radius: 0px;
+    border-radius: 2px;
+    font-size: 12px; }
+    /* line 309, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+    .product_comment .fbox.font-large {
+      padding: 20px;
+      font-size: 15px; }
+  /* line 314, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .product_comment .fbox:after {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0; }
+  /* line 320, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .product_comment .fbox:after {
+    top: 2px;
+    left: -20px;
+    border: 10px solid transparent;
+    border-right: 15px solid #ace9ea;
+    /*13px*/ }
+
+/* line 328, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.product_comment_form textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 13px;
+  line-height: 15px; }
+/* line 335, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.product_comment_form button {
+  margin: 10px 0 0 0; }
+
+/* line 340, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.see_more {
+  text-align: right; }
+  /* line 342, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .see_more a {
+    color: #339999;
+    text-decoration: none; }
+
+/* line 348, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.signin_wrapper {
+  margin: 10px 0 0 0; }
+  /* line 350, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .signin_wrapper .side_divider_right {
+    border-right: 1px solid #339999;
+    height: 250px; }
+
+/* line 356, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.anotation {
+  color: #555;
+  font-size: 12px; }
+
+/* line 362, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.pagination ul {
+  list-style: none; }
+  /* line 364, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .pagination ul li {
+    display: inline-block;
+    margin: 5px; }
+    /* line 367, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+    .pagination ul li a {
+      display: block;
+      font-size: 12px;
+      padding: 5px 10px;
+      background: #fff;
+      text-decoration: none;
+      border: 1px solid #339999;
+      color: #339999; }
+      /* line 375, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+      .pagination ul li a.actived {
+        background: #ace9ea; }
+      /* line 378, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+      .pagination ul li a:hover {
+        background: #ace9ea; }
+
+/* line 386, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.button {
+  padding: 0px 20px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 14px;
+  box-sizing: border-box;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px; }
+
+/* line 396, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.button-success {
+  border: 1px solid #339999;
+  border-radius: 4px;
+  background: #fff;
+  color: #339999; }
+  /* line 401, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .button-success:hover {
+    background: #ace9ea; }
+
+/* line 406, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+.usage_stats {
+  padding: 5px;
+  border: 1px solid #555; }
+  /* line 409, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .usage_stats h1 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #555;
+    text-align: center;
+    margin: 0;
+    padding: 2px 0;
+    border-bottom: 1px solid #ccc; }
+  /* line 418, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+  .usage_stats table {
+    width: 100%; }
+    /* line 420, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+    .usage_stats table th {
+      width: 33%; }
+    /* line 424, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+    .usage_stats table thead tr {
+      font-size: 14px;
+      line-height: 28px; }
+    /* line 430, /home/vagrant/Program/rails/projects/Gruppi-proto/source/stylesheets/module.css.scss */
+    .usage_stats table tbody tr {
+      font-size: 20px; }
