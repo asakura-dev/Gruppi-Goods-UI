@@ -7,7 +7,7 @@ layout: pc
   <%= partial 'pc/admin_side' %>
   <div class="l-grid-9-12 l-align-left">
     <h2>備品の新規追加</h2>
-    <div class="goods_form">
+    <div class="tabs">
       <div class="tab-buttons">
 	<ul>
 	  <li class="actived">手動</li>
@@ -16,7 +16,55 @@ layout: pc
 	</ul>
       </div>
       <div class="tab-contents">
-	<div class="tab-content l-grid-row actived">aa</div>
+	<div class="tab-content l-grid-row actived">
+	  <form class="goods_form">
+	    <div class="l-grid-row clearfix">
+	      <div class="l-grid-2-12 l-align-left">
+		<label for="name">品名</label>
+	      </div>
+	      <div class="l-grid-10-12 l-align-left">
+		<input name="name" type="text">
+	      </div>
+	    </div>
+	    <div class="l-grid-row clearfix">
+	      <div class="l-grid-2-12 l-align-left">
+		<label class="l-align-left">説明</label>
+	      </div>
+	      <div class="l-grid-10-12 l-align-left">
+		<textarea></textarea>
+	      </div>
+	    </div>
+	    <div class="l-grid-row clearfix">
+	      <div class="l-grid-2-12 l-align-left">
+		<label>カテゴリ</label>
+	      </div>
+	      <div class="l-grid-5-12 l-align-left">
+		<select>
+		  <option>書籍</option>
+		  <option>ビリーズブートキャンプ</option>
+		</select>
+	      </div>
+	      <div class="l-grid-4-12 l-align-left">
+		<div class="input_box">
+		  <input type="text" placeholder="新しいカテゴリ名">
+		  <button>追加</button>
+		</div>
+	      </div>
+	    </div>
+	    <div class="l-grid-row clearfix">
+	      <div class="l-grid-2-12 l-align-left">
+		<label>画像</label>
+	      </div>
+	      <div class="l-grid-10-12 l-align-left">
+		<input type="file">
+	      </div>
+	    </div>
+	    <div class="l-grid-row clearfix">
+	      <button class="button button-success l-align-right">作成</button>
+	    </div>
+	  </form>
+
+	</div>
 	<div class="tab-content l-grid-row">bb</div>
 	<div class="tab-content l-grid-row">cc</div>
       </div>
