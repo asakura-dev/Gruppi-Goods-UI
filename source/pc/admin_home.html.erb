@@ -4,15 +4,55 @@ layout: pc
 ---
 <div class="l-constrained clearfix">
   <h1>管理画面</h1>
-  <div class="l-side-col l-grid-3-12 l-align-left">
-    <div class="l-side-row">
-      <%= partial 'pc/admin_panel' %>
-    </div>
-    <div class="l-side-row">
-      <%= partial 'pc/usage_stats'%>
-    </div>
-  </div>
+  <%= partial 'pc/admin_side' %>
   <div class="l-grid-9-12 l-align-left">
-    
+    <h2>一覧(100件中 1-10件目)</h2>
+    <table class="goods_table l-grid-row">
+      <thead>
+	<tr>
+	  <th class="col_goods"">品名</th>
+	  <th class="col_category">カテゴリ</th>
+	  <th class="col_date">登録日時</th>
+	  <th class="col_times">累計貸出回数</th>
+	  <th class="col_status">貸出可否</th>
+	  <th ckass="col_edit"></th>
+	</tr>
+      </thead>
+      <tbody>
+	<% 10.times do %>
+	<tr>
+	  <td class="col_goods">JavaScript第6版</td>
+	  <td class="col_category">
+	    <form>
+	      <select>
+		<option value="book">書籍</option>
+		<option value="tool">工具aaaaaaaaaaaa</option>
+	      </select>
+	    </form>
+	  </td>
+	  <td class="col_date">2015/06/11</td>
+	  <td class="col_times">aaaaaa</td>
+	  <td class="col_status">aaaaaa</td>
+	  <td class="col_edit">
+	    <form><button class="link_btn link_btn_success">編集</button></form>
+	  </td>
+	</tr>
+	<% end %>
+      </tbody>
+    </table>
+    <div class="l-constrained pagination">
+      <ul>
+	<li><a href="" class="actived">0</a></li>
+	<li><a href="">1</a></li>
+	<li><a href="">2</a></li>
+	<li><a href="">3</a></li>
+	<li><a href="">4</a></li>
+	<li><a href="">5</a></li>
+	<li><a href="">6</a></li>
+	<li><a href="">7</a></li>
+	<li><a href="">8</a></li>
+	<li><a href="">9</a></li>
+      </ul>
+    </div>
   </div>
 </div>

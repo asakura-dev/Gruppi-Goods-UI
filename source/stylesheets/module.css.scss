@@ -363,7 +363,7 @@ $primary-light: #ace9ea;
     list-style:none;
     li{
       display:inline-block;
-      margin:5px;
+      margin:5px 0 5px 5px;
       a{
 	display:block;
 	font-size:12px;
@@ -430,6 +430,59 @@ $primary-light: #ace9ea;
       tr{
 	font-size: 20px;
       }
+    }
+  }
+}
+
+.goods_table{
+  margin:20px 0;
+  text-align:center;
+  thead{
+    
+    border:1px solid #aaa;
+    font-size:16px;
+    background:#eee;
+    th{
+      padding:3px 0;
+    }
+  }
+  tbody{
+    td{
+      font-size:14px;
+      border-bottom:1px solid #aaa;
+      padding:4px 0;
+    }
+    tr:hover{
+      background:#eee;
+    }
+  }
+}
+.col_goods{
+  
+}
+.col_category{
+  width:100px;
+  form{
+    select{
+      width:100px;
+      margin:0 auto;
+    }
+  }
+}
+.col_date{
+  width:100px;
+}
+.col_times{
+  width:100px;
+}
+.col_status{
+  width:100px;
+}
+.col_edit{
+  width:50px;
+  form{
+    button{
+      padding:0 5px;
     }
   }
 }
