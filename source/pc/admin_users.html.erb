@@ -1,18 +1,18 @@
 ---
-title: "ユーザーの管理"
+title: "ユーザーの承認と招待"
 layout: pc
 ---
 <div class="l-constrained clearfix">
   <h1>管理画面</h1>
   <%= partial 'pc/admin_side' %>
   <div class="l-grid-9-12 l-align-left">
-    <h2>ユーザーの管理</h2>
+    <h2>ユーザーの承認と招待</h2>
     <h3>参加を申請しているユーザ</h3>
     <% 5.times do %>
       <div class="l-grid-row">
 	<div class="user_box block_content clearfix">
 	  <div class="l-grid-1-12 l-align-left">
-	    <img src="https://pbs.twimg.com/profile_images/541976875929571328/vnbAiTRn_400x400.png">
+	    <img class="large" src="https://pbs.twimg.com/profile_images/541976875929571328/vnbAiTRn_400x400.png">
 	  </div>
 	  <div class="l-grid-7-12 l-align-left">
 	    <p>
@@ -22,8 +22,8 @@ layout: pc
 	  </div>
 	  <div class="l-grid-4-12 l-align-left">
 	    <form>
-	      <button class="button button-warning button-offset">拒否</button>
-	      <button class="button button-success button-offset">承認</button>
+	      <button class="button button-warning offset">拒否</button>
+	      <button class="button button-success offset">承認</button>
 	    </form>
 	  </div>
 	</div>

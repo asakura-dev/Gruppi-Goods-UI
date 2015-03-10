@@ -1,0 +1,41 @@
+---
+title: "権限の管理"
+layout: pc
+---
+<div class="l-constrained clearfix">
+  <h1>管理画面</h1>
+  <%= partial 'pc/admin_side' %>
+  <div class="l-grid-9-12 l-align-left">
+    <h2>権限の管理</h2>
+    <p class="anotation">
+      オーナー(1人)：権限の管理、マネージャーができること<br>
+      マネージャー(複数人)：ユーザの追加・削除、アイテムの追加・削除・編集、他人のコメントの削除、一般ユーザができること<br>
+      一般ユーザ：コメントの追加、自分のコメントの削除
+    </p>
+    <img src="/images/permission-desc.png">
+    <h3>権限の変更</h3>
+    <div class="block_content l-grid-row">
+      <% 10.times do %>
+      <div class="user_box clearfix">
+	<div class="l-grid-1-12 l-align-left">
+	    <img src="https://pbs.twimg.com/profile_images/541976875929571328/vnbAiTRn_400x400.png">
+	</div>
+	<div class="l-grid-8-12 l-align-left">
+	  <p>
+	    あさくら<br>
+	    twitter:<a href="">@asakura_dev</a>
+	  </p>
+	</div>
+	<div class="l-grid-3-12 l-align-left">
+	  <form>
+	    <select class="offset">
+	      <option>オーナー</option>
+	    </select>
+	  </form>
+	</div>
+      </div>
+      <% end %>
+    </div>
+
+  </div>
+</div>
