@@ -1,6 +1,8 @@
 $primary: #33cccc;
 $primary-dark: #339999;
 $primary-light: #ace9ea;
+$warning: #ed5a5a;
+$warning-dark: #ea4848;
 
 .global-nav{
   height:50px;
@@ -402,6 +404,36 @@ $primary-light: #ace9ea;
     background:$primary-light;
   }
 }
+.button-warning{
+  border:1px solid $warning;
+  border-radius:4px;
+  background:$warning;
+  color:#fff;
+  &:hover{
+    background:$warning-dark;
+  }
+}
+
+.user_box{
+  margin:10px 0;
+  padding:5px;
+  img{
+    width:50px;
+    height:50px;
+    border:1px solid $primary;
+    vertical-align:bottom;
+  }
+  p{
+    font-size:14px;
+    padding:5px 0;
+  }
+  .button-offset{
+    margin:10px 0;
+  }
+  form{
+    text-align:right;
+  }
+}
 
 .usage_stats{
   padding:5px;
@@ -433,7 +465,6 @@ $primary-light: #ace9ea;
     }
   }
 }
-
 .goods_table{
   margin:20px 0;
   text-align:center;
@@ -483,6 +514,17 @@ $primary-light: #ace9ea;
   form{
     button{
       padding:0 5px;
+    }
+  }
+}
+
+.invitation_form{
+  padding:10px;
+  form{
+    textarea{
+      width:100%;
+      height:150px;
+      border-radius:4px;
     }
   }
 }

@@ -48,16 +48,21 @@ a, a:visited, a:hover {
 h1{
     font-size: 25px;
     color: #555;
-    margin: 15px 0;
+    margin: 20px 0 15px 0;
     line-height: 25px;
 }
 h2{
     font-size: 20px;
     color: #555;
-    margin: 10px 0;
+    margin: 15px 0 10px 0;
     line-height: 20px;
 }
-
+h3{
+  font-size:18px;
+  color:#555;
+  margin:10px 0 5px 0;
+  line-height:18px;
+}
 dt {
     font-weight:bold;
     margin-bottom:5px;
